@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+main = FastAPI()
 
-@app.get('/')
+@main.get('/')
 def index():
   return "This is the front page"
